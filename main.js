@@ -1,15 +1,14 @@
 const readline = require('readline');
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
 const { DrawChristmastree } = require('./drawChristmastree') ; 
 const { ChangeCurrency } = require('./changeCurrency') ; 
 const { GasCalculate } = require('./gasCalculate') ; 
 const draw = new DrawChristmastree()
 const currency = new ChangeCurrency()
 const gasCalculate = new GasCalculate()
-
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 function readLineDrawChristmasTree() {
     return new Promise((resolve) => {
         rl.question(`Draw your Christmas tree with height? `, (height) => {
