@@ -71,9 +71,3 @@ function main(){
     });
 }
 main()
-// # test-beryl8
-// # Install step
-// ```
-// 1.Install nodejs
-// 2.Clone
-// ```

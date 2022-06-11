@@ -20,12 +20,12 @@ class ChangeCurrency {
                     strCurrency = 'WON'
                     break;
                 case 'USD':
-                    const usd = 33.72
+                    const usd = 0.028
                     answer = this.THB*usd
                     strCurrency = 'USD'
                     break;
                 case 'YEN':
-                    const yen = 33.72
+                    const yen = 3.4
                     answer = this.THB*yen
                     strCurrency = 'YEN'
                     break;
